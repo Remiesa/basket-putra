@@ -272,11 +272,10 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -5px;
 }
 
 .slider_section .detail-box .btn-box a {
-  margin: 5px;
+  padding: 5px;
   text-align: center;
   width: 165px;
 }
