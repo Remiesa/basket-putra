@@ -58,7 +58,6 @@ body {
   flex-direction: column;
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start;
 }
 
 .heading_container h2 {
@@ -283,7 +282,7 @@ a:focus {
   width: 165px;
 }
 
-.slider_section .detail-box .btn-box .btn1 {
+.btn1 {
   display: inline-block;
   padding: 10px 15px;
   background-color: var(--main-color);
@@ -294,12 +293,12 @@ a:focus {
   transition: all 0.2s;
 }
 
-.slider_section .detail-box .btn-box .btn1:hover {
+.btn1:hover {
   background-color: transparent;
   color: var(--main-color);
 }
 
-.slider_section .detail-box .btn-box .btn2 {
+.btn2 {
   display: inline-block;
   padding: 10px 15px;
   background-color: #333333;
@@ -310,7 +309,7 @@ a:focus {
   transition: all 0.2s;
 }
 
-.slider_section .detail-box .btn-box .btn2:hover {
+.btn2:hover {
   background-color: transparent;
   color: #333333;
 }
@@ -347,7 +346,7 @@ a:focus {
 
 .team_section .box {
   margin-top: 45px;
-  background-color: #faf7f7;
+  background-color: transparent;
   padding: 25px;
   border-radius: 5px;
 }
@@ -420,22 +419,6 @@ a:focus {
 .about_section .detail-box p {
   margin-top: 10px;
   margin-bottom: 35px;
-}
-
-.about_section .detail-box a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #6bb7be;
-  color: #ffffff;
-  border-radius: 0;
-  border: 1px solid #6bb7be;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.about_section .detail-box a:hover {
-  background-color: transparent;
-  color: #6bb7be;
 }
 
 .blog_section .heading_container {
@@ -515,15 +498,21 @@ a:focus {
 
 .client_section .box .img-box {
   border-radius: 100%;
-  border: 10px solid #6bb7be;
+  border: 10px solid var(--main-color);
   margin-right: 25px;
   min-width: 175px;
   max-width: 175px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .client_section .box .img-box img {
-  width: 100%;
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 .client_section .box .detail-box {
@@ -549,7 +538,7 @@ a:focus {
 }
 
 .client_section .box .detail-box .name h6 {
-  color: #6bb7be;
+  color: var(--second-color);
   font-size: 20px;
 }
 
@@ -572,7 +561,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 12px;
   background-position: center;
-  background-color: #6bb7be;
+  background-color: var(--second-color);
   background-position: center;
   border-radius: 100%;
   margin: 0 2.5px;
