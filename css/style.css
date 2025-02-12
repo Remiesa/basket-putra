@@ -524,7 +524,7 @@ a:focus {
   flex-direction: column;
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .client_section .box .detail-box .name {
