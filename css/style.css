@@ -345,7 +345,7 @@ a:focus {
 }
 
 .team_section .box {
-  margin-top: 45px;
+  /* margin-top: 45px; */
   background-color: transparent;
   padding: 25px;
   border-radius: 5px;
