@@ -58,6 +58,41 @@
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+      @media screen and (max-width: 768px) {
+        /* body {
+          background-size: cover;
+          margin-top: 50px;
+        } */
+
+        .client_section {
+          background: #ff6f00;
+        }
+
+        .containerbola {
+          background-color: #ff6f00;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          width: 100%;
+        }
+
+        .bola img {
+          padding-right: 20px;
+        }
+
+        .text {
+          border-radius: 20px;
+          height: auto;
+          text-align: center;
+          color: white;
+        }
+
+        .text h1 {
+          font-size: 24px;
+        }
+      }
+    </style>
   </head>
 
   <body class="sub_page">
@@ -112,41 +147,33 @@
     </div>
 
     <!-- furniture section -->
-    <section class="client_section layout_padding">
-      <div class="container">
-        <div class="heading_container">
-          <h2 class="text-center">
-            SALURAN <span style="color: #ff6f00">BASKET</span> PUTRA
-          </h2>
-        </div>
-
-        <!-- <div class="about_section layout_padding long_section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="img-box">
-                  <img
-                    src="images/logo.jpg"
-                    style="border-radius: 10px"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="detail-box">
-                  <p>Bergabung ke saluran Basket Putra melalui Whatsapp</p>
-                  <a href="" class="btn1" target="_blank">
-                    <i class="fa fa-whatsapp"></i> Gabung
-                  </a>
-                </div>
-              </div>
-            </div>
+    <section
+      class="client_section"
+      style="
+        background-image: url(images/kotak.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      "
+    >
+      <div class="container h-100 d-flex align-items-center">
+        <div class="row align-items-center">
+          <div class="bola col-md-6">
+            <img src="images/bola.png" class="img-fluid" alt="Bola" />
           </div>
-        </div> -->
+          <div class="text col-md-6">
+            <h1 style="font-weight: bold">
+              SALURAN<br />
+              <span style="color: #ff6f00">BASKET</span>
+              PUTRA
+            </h1>
+            <a href="" class="btn1" target="_blank">
+              <i class="fa fa-whatsapp"></i> Gabung
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-
-    <!-- end furniture section -->
 
     <!-- footer section -->
     <footer class="footer_section">
