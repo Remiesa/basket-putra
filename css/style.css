@@ -1,8 +1,9 @@
 /* fonts import */
 
 :root {
-  --main-color: #d92629;
+  --main-color: #ff6f00;
   --second-color: #333333;
+  --other-color: #1e88e5;
 }
 
 html {
@@ -271,6 +272,8 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider_section .detail-box .btn-box a {
@@ -298,17 +301,17 @@ a:focus {
 .btn2 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #333333;
+  background-color: var(--other-color);
   color: #ffffff;
   border-radius: 0;
-  border: 1px solid #333333;
+  border: 1px solid var(--other-color);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .btn2:hover {
   background-color: transparent;
-  color: #333333;
+  color: var(--other-color);
 }
 
 .slider_section .img-box img {

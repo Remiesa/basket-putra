@@ -26,10 +26,10 @@
 }
 
 @media (max-width: 768px) {
-  .slider_section {
+  /* .slider_section {
     padding-top: 90px;
     padding-bottom: 90px;
-  }
+  } */
 
   .slider_section .detail_box {
     text-align: center;
