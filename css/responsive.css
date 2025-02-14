@@ -36,6 +36,10 @@
     padding-left: 0;
   }
 
+  .slider_section .detail-box h1 {
+    font-size: 24px;
+  }
+
   .slider_section .img-box {
     margin-top: 45px;
     padding: 0px !important;
@@ -140,7 +144,7 @@
 
 @media (max-width: 376px) {
   .slider_section .detail-box h1 {
-    font-size: 2rem;
+    font-size: 20px;
   }
 }
 
